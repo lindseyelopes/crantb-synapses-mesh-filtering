@@ -1,0 +1,60 @@
+{
+  "description": "",
+  "owners": [],
+  "processing": [
+    {
+      "by": "b'107498408+lindseyelopes@users.noreply.github.com'",
+      "date": "2026-07-14 12:29 EDT",
+      "method": {
+        "cdn_cache": false,
+        "closed_dataset_edges": true,
+        "compress": "gzip",
+        "dry_run": false,
+        "dust_global": false,
+        "dust_threshold": null,
+        "encoding": "precomputed",
+        "exclude_object_ids": [],
+        "fill_holes": 0,
+        "fill_missing": false,
+        "frag_path": null,
+        "layer_path": "file:///Users/lindsey/Documents/Kronauer Lab/CRANTb/synapses/260713_synapsev3_neuropilmesh/MASK_CRANTb_v3synapses+nuclei_BINARY",
+        "max_simplification_error": 40,
+        "mesh_dir": "mesh",
+        "mip": 0,
+        "object_ids": null,
+        "shape": [
+          256,
+          256,
+          256
+        ],
+        "sharded": true,
+        "simplification": true,
+        "spatial_index": true,
+        "task": "MeshTask"
+      }
+    },
+    {
+      "by": "b'107498408+lindseyelopes@users.noreply.github.com'",
+      "date": "2026-07-14 12:29 EDT",
+      "method": {
+        "cloudpath": "file:///Users/lindsey/Documents/Kronauer Lab/CRANTb/synapses/260713_synapsev3_neuropilmesh/MASK_CRANTb_v3synapses+nuclei_BINARY",
+        "draco_compression_level": 7,
+        "frag_path": null,
+        "mesh_dir": "mesh",
+        "min_chunk_size": [
+          128,
+          128,
+          128
+        ],
+        "minishard_bits": 0,
+        "mip": 0,
+        "num_lod": 2,
+        "preshift_bits": 0,
+        "shard_bits": 0,
+        "task": "MultiResShardedMeshMergeTask",
+        "vertex_quantization_bits": 16
+      }
+    }
+  ],
+  "sources": []
+}

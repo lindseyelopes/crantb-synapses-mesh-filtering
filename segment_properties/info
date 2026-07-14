@@ -1,0 +1,17 @@
+{
+  "@type": "neuroglancer_segment_properties",
+  "inline": {
+    "ids": [
+      "1"
+    ],
+    "properties": [
+      {
+        "id": "label",
+        "type": "label",
+        "values": [
+          "MASK_CRANTb_v3synapses+nuclei_BINARY_label_1"
+        ]
+      }
+    ]
+  }
+}
